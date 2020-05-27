@@ -104,7 +104,25 @@ main {
     user-select: none;
 }
 
+.credit-bot {
+    background-color: #756D6E;
+    color: white;
+}
 
+.credit-link {
+    font-size: .9rem;
+}
+
+@media only screen and (min-width: 300px) {
+    .home {
+        padding-bottom: 1rem;
+    }
+
+    .blooddis {
+        margin-top: 4rem;
+    }
+
+}
 /*extra small screen*/
 @media only screen and (max-width: 576px) {
     .navbar {
@@ -232,7 +250,7 @@ main {
 
     .home {
         margin-top: 5rem;
-        height: 50vh;
+        height: 60vh;
     }
 
     .terms {
@@ -403,5 +421,21 @@ main {
     .home {
         margin-top: 0;
         margin-left: 5rem;
+    }
+
+    .def-lg {
+        margin-left: 2rem;
+    }
+
+    .symp-lg {
+        margin-left: 2rem;
+    }
+
+    .credit-bot {
+        margin-left: 5rem;
+    }
+
+    .credit-link:hover {
+        color: #DEDEDE;
     }
 }
