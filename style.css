@@ -4,7 +4,7 @@
 }
 body {
     color: black;
-    background-color: white;
+    background-color: #FFFBFB;
     margin: 0;
     padding: 0;
 }
@@ -423,6 +423,11 @@ main {
         margin-left: 5rem;
     }
 
+    .about {
+        margin-left: 5rem;
+        background-color: #EEEEEE;
+    }
+
     .def-lg {
         margin-left: 2rem;
     }
@@ -438,4 +443,5 @@ main {
     .credit-link:hover {
         color: #DEDEDE;
     }
+
 }
